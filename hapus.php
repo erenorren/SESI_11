@@ -9,8 +9,8 @@ $mhs = new Mahasiswa($db);
 $mhs->id = $_GET['id'];
 
 if ($mhs->delete()) {
-    setcookie(name: 'success', value: 'hapus', options: time() + 1);
-    header(header: "Location: index.php");
+    setcookie('success', 'hapus', time() + 1);
+    header("Location: index.php");
     exit();
 }
 ?>
