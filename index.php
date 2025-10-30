@@ -29,7 +29,7 @@ $data = $mhs->readAll();
                 <td><?=$row['jurusan']?></td>
                 <td>
                     <a href="edit.php?id=<?= $row['id']?>"> Edit</a>
-                    <a href="hapus.php?id=<?= $row['id']?>" onclick="return confir('Yakin ingin hapus?')">Hapus</a>
+                    <a href="hapus.php?id=<?= $row['id']?>"onclick="return confirm('Yakin ingin hapus?')">Hapus</a>
                 </td>
             </tr>  
             <?php endwhile; ?>
