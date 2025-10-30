@@ -12,7 +12,7 @@ $data = $mhs->readAll();
     <head><tittle>Data Mahasiswa</tittle></head>
     <body>
         <h2>Data Mahasiswa</h2>
-        <a href="tambah.php"> Tambah Data</a><br><nr>
+        <a href="tambah.php">Tambah Data</a><br><nr>
         <table border="1" cellpadding="8">
             <tr>
                 <th>No</th>
