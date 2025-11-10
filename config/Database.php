@@ -3,7 +3,7 @@ class Database{
     private $host = "Localhost";
     private $db_name = "kampus";
     private $username = "root";
-    private $password = "Sh3Belajar!SQL";
+    private $password = "";
     public $conn;
 
     public function getConnection(){
